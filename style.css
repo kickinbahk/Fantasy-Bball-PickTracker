@@ -1,0 +1,65 @@
+article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; 
+
+  } 
+
+ h1, h2, body, div, form, input {
+ 	font-family: "Arial", "Times New Roman", "serif";
+ }
+
+ h1 { 	
+ 	font-size: 50px;
+ 	font-weight: bold;
+ 	color: blue;
+ 	text-align: center;
+ 	padding-top: 30px;
+
+ }
+ h2 {
+	margin-left: 558px;
+ 	font-size: 20px;
+
+ }
+ #name {
+ 	font-size: 30px;
+ 	margin-left: 430px;
+ 	margin-bottom: 15px;
+ 	text-align: center;
+
+ }
+ #label {
+ 	display: block;
+ 	font-size: 20px;
+ 	margin-left: 558px;
+ 	padding-bottom: 10px;
+
+ }
+ .commands {
+     border: 2px;
+     margin-left: 460px;
+
+ }
+ #clear {
+     margin-right: 100px;
+ }
+ #display {
+ 	padding-top: 50px;
+ 	margin-left: 540px;
+ 	font-size: 25px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="Libraries/jquery-2.1.3.js"></script>
+		<script src="script2.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset=utf-8 />
+		<title>Pick Tracker</title>
+		<style>
+  			article, aside, figure, footer, header, hgroup, 
+  			menu, nav, section { display: block; }
+		</style>
+	</head>
+        <body>
+
+        <form id="form">
+
+            <h1><b>Please enter Player Name</b></h1>
+        <hr size="3"/>
+        <br>
+        <br>
+
+            <label for="name">Player: </label><input id="name" type="text" />
+        <br>
+            <input type="button" value="Save" onclick="savePlayer();">
+            <input type="button" value="Add To List" onclick="add();"> <br>
+
+            <h2><b>Picks:</b></h2>
+        <hr>
+        </form>
+
+        <div id="display">
+
+            </div>
+        </body>
+
+</html>

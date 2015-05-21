@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<script src="Libraries/jquery-2.1.3.js"></script>-->
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSSReset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta charset=utf-8 />
+        <title>Pick Tracker</title>
+    </head>
+        <body>
+
+        <form id="form">
+
+            <h1><b>Please enter Player Name</b></h1>
+        <hr size="3"/>
+        <br>
+            <label id="label" for="name">Player: </label>
+        <div id="pick">
+            <input id="name" type="text" />
+        </div>    
+        <br>
+            <div class="commands">
+                <input id="clear" type="button" value="Clear List" onclick="clearList();">
+                <input id="submit" type="button" value="Add To List" onclick="add();"> <br>
+            </div>
+            <br>
+            <br>
+        <hr>
+            <h2><b>Picks:</b></h2>
+        </form>
+
+        <ol id="display">
+
+        </ol>
+        </body>
+
+</html>
